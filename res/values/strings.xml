@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">   
+    <!-- cards -->
+    <string name="card1">Status Bar</string>
+    <string name="card2">Lock Screen</string>
+    <string name="card3">Buttons</string>
+    <string name="card4">Interface</string>
+    <string name="card5">Recents</string>
+    <string name="card6">Misc</string>
+</resources>	
