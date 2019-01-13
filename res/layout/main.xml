@@ -59,6 +59,7 @@
                             android:layout_below="@id/image1"
                             android:text="@string/card1"
                             android:textAlignment="center"
+                            android:textColor="@color/text_primary"
                             android:textSize="24sp" />
 
                     </RelativeLayout>
@@ -97,6 +98,7 @@
                             android:layout_below="@id/image2"
                             android:text="@string/card2"
                             android:textAlignment="center"
+                            android:textColor="@color/text_primary"
                             android:textSize="24sp" />
 
                     </RelativeLayout>
@@ -145,6 +147,7 @@
                             android:layout_below="@id/image3"
                             android:text="@string/card3"
                             android:textAlignment="center"
+                            android:textColor="@color/text_primary"
                             android:textSize="24sp" />
 
                     </RelativeLayout>
@@ -183,6 +186,7 @@
                             android:layout_below="@id/image4"
                             android:text="@string/card4"
                             android:textAlignment="center"
+                            android:textColor="@color/text_primary"
                             android:textSize="24sp" />
 
                     </RelativeLayout>
@@ -231,6 +235,7 @@
                             android:layout_below="@id/image5"
                             android:text="@string/card5"
                             android:textAlignment="center"
+                            android:textColor="@color/text_primary"
                             android:textSize="24sp" />
 
                     </RelativeLayout>
@@ -269,6 +274,7 @@
                             android:layout_below="@id/image6"
                             android:text="@string/card6"
                             android:textAlignment="center"
+                            android:textColor="@color/text_primary"
                             android:textSize="24sp" />
 
                     </RelativeLayout>
@@ -298,6 +304,7 @@
                 android:text="About Us"
                 android:textAlignment="center"
                 android:textSize="24sp"
+                android:textColor="@color/text_primary"
                 android:textStyle="bold" />
 
             <ImageView
