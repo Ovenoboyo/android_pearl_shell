@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">     
-    <color name="background">@*android:color/omni_color1</color>
-    <color name="text_primary">@*android:color/omni_text1</color>
-    <color name="button_bg">@*android:color/omni_color2</color>
-    <color name="accent">@*android:color/accent_device_default_light</color>
-	
+    <color name="background">@android:color/white</color> 
 </resources>
