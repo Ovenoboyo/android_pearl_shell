@@ -13,4 +13,8 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <Preference
+            android:key="battery_settings"
+            android:title="@string/battery_style_category_title"
+            android:fragment="com.pearl.shell.fragments.StatusBarBattery" />
 </PreferenceScreen>
