@@ -68,6 +68,9 @@ public class Shell extends Fragment implements View.OnClickListener {
 		
 		FrameLayout card6 = (FrameLayout) view.findViewById(R.id.card6);
 		card6.setOnClickListener(this);
+		
+		RelativeLayout about = (RelativeLayout) view.findViewById(R.id.about);
+		about.setOnClickListener(this);
 
         return view;
     }
@@ -105,6 +108,12 @@ public class Shell extends Fragment implements View.OnClickListener {
 				fragment = new MiscFragment();
 			    replaceFragment(fragment);
 				break;
+				
+            case R.id.about:
+                Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.pearl.about");
+                if (launchIntent != null) { 
+                    startActivity(launchIntent);
+                }
 
 			default:
 				break;
