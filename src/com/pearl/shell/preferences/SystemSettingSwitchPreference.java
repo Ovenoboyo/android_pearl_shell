@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.serein.extras.preferences;
+package com.pearl.shell.preferences;
 
 import android.content.Context;
 import android.support.v14.preference.SwitchPreference;

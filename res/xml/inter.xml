@@ -24,5 +24,4 @@
                  android:targetPackage="org.omnirom.omnistyle"
                  android:targetClass="org.omnirom.omnistyle.BrowseThemesActivity" />
     </Preference>
-
 </PreferenceScreen>

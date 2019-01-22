@@ -17,5 +17,6 @@
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
+        android:icon="@drawable/ic_lock"
         android:defaultValue="true" />
 </PreferenceScreen>
