@@ -18,4 +18,18 @@
             android:title="@string/battery_style_category_title"
             android:icon="@drawable/ic_battery_title"
             android:fragment="com.pearl.shell.fragments.StatusBarBattery" />
+
+
+    <com.pearl.shell.preferences.SystemSettingSwitchPreference
+        android:key="roaming_indicator_icon"
+        android:title="@string/roaming_indicator_icon_title"
+        android:summary="@string/roaming_indicator_icon_summary"
+        android:defaultValue="true"/>
+
+    <!-- VoLTE Icon -->
+    <com.pearl.shell.preferences.SystemSettingSwitchPreference
+        android:key="volte_icon"
+        android:title="@string/volte_icon_title"
+        android:summary="@string/volte_icon_summary"
+        android:defaultValue="false"/>
 </PreferenceScreen>
