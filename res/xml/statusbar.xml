@@ -26,6 +26,12 @@
          android:summary="@string/clock_style_category_summary"
          android:fragment="com.pearl.shell.fragments.ClockSettings" />
 
+    <Preference
+            android:title="@string/traffic_title"
+            android:key="traffic"
+            android:icon="@drawable/ic_network_traffic_icon"
+            android:fragment="com.pearl.shell.fragments.Traffic" />
+
     <com.pearl.shell.preferences.SystemSettingSwitchPreference
         android:key="roaming_indicator_icon"
         android:title="@string/roaming_indicator_icon_title"
