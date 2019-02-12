@@ -110,4 +110,6 @@
     <string name="audio_panel_view_alarm_title">Alarm</string>
     <string name="audio_panel_view_voice_title">Voice</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
+    <string name="sound_settings_title">Sound settings</string>
+
 </resources>
