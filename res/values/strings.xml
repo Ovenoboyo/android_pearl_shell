@@ -19,6 +19,7 @@
     <string name="card4">Interface</string>
     <string name="card5">Recents</string>
     <string name="card6">Misc</string>
+    <string name="statusbar_title">Statusbar</string>
 
     <!-- Omani Themes -->
     <string name="theme_select_title">System themes</string>
@@ -121,4 +122,12 @@
     <string name="ticker_animation_mode_alpha_fade">Fade</string>
     <string name="ticker_animation_mode_scroll">Scroll</string>
     <string name="ticker_tick_duration_title">Ticker duration</string>
+
+    <!-- QS tile styles -->
+    <string name="quicksettings_title">QS styles </string>
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qstile_default">Default</string>
+    <string name="qstile_circle_trim">Circle with trim</string>
+    <string name="qstile_dual_tone_circle">Dual-toned circle</string>
+    <string name="qstile_squircle_trim">Squircle with trim</string
 </resources>

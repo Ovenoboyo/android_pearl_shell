@@ -11,7 +11,9 @@
      limitations under the License.
 -->
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/statusbar_title">
 
     <Preference
             android:key="battery_settings"
@@ -23,6 +25,12 @@
         android:key="statusbar_ticker"
         android:title="@string/status_bar_ticker_title"
         android:fragment="com.pearl.shell.fragments.Ticker" />
+
+        <!-- Quick Settings panel -->
+    <Preference
+            android:key="quicksettings_category"
+            android:title="@string/quicksettings_title"
+            android:fragment="com.pearl.shell.fragments.QuickSettings"
 
     <Preference
          android:key="clock_settings"

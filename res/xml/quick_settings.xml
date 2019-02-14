@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/quicksettings_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <ListPreference
+         android:key="qs_tile_style"
+         android:title="@string/qs_tile_style_title"
+         android:persistent="false"
+         android:entries="@array/qs_selector_entries"
+         android:entryValues="@array/qs_selector_values" />
+
+</PreferenceScreen>
