@@ -26,11 +26,17 @@
         android:title="@string/status_bar_ticker_title"
         android:fragment="com.pearl.shell.fragments.Ticker" />
 
+        <!-- Heads Up -->
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.pearl.shell.fragments.HeadsUpSettings" />
+
         <!-- Quick Settings panel -->
     <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
-            android:fragment="com.pearl.shell.fragments.QuickSettings"
+            android:fragment="com.pearl.shell.fragments.QuickSettings"/>
 
     <Preference
          android:key="clock_settings"
