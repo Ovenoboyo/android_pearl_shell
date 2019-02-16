@@ -11,6 +11,69 @@
      limitations under the License.
 -->
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/statusbar_title">
 
+    <Preference
+            android:key="battery_settings"
+            android:title="@string/battery_style_category_title"
+            android:icon="@drawable/ic_battery_title"
+            android:fragment="com.pearl.shell.fragments.StatusBarBattery" />
+
+    <Preference
+        android:key="statusbar_ticker"
+        android:title="@string/status_bar_ticker_title"
+        android:fragment="com.pearl.shell.fragments.Ticker" />
+
+        <!-- Heads Up -->
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.pearl.shell.fragments.HeadsUpSettings" />
+
+        <!-- Quick Settings panel -->
+    <Preference
+            android:key="quicksettings_category"
+            android:title="@string/quicksettings_title"
+            android:fragment="com.pearl.shell.fragments.QuickSettings"/>
+
+    <Preference
+         android:key="clock_settings"
+         android:icon="@drawable/ic_clock"
+         android:title="@string/clock_style_category_title"
+         android:summary="@string/clock_style_category_summary"
+         android:fragment="com.pearl.shell.fragments.ClockSettings" />
+
+    <Preference
+            android:title="@string/traffic_title"
+            android:key="traffic"
+            android:icon="@drawable/ic_network_traffic_icon"
+            android:fragment="com.pearl.shell.fragments.Traffic" />
+
+    <com.pearl.shell.preferences.SystemSettingSwitchPreference
+        android:key="roaming_indicator_icon"
+        android:title="@string/roaming_indicator_icon_title"
+        android:summary="@string/roaming_indicator_icon_summary"
+        android:defaultValue="true"/>
+
+    <!-- VoLTE Icon -->
+    <com.pearl.shell.preferences.SystemSettingSwitchPreference
+        android:key="volte_icon"
+        android:title="@string/volte_icon_title"
+        android:summary="@string/volte_icon_summary"
+        android:defaultValue="false"/>
+
+    <PreferenceCategory
+        android:key="weather_lockscreen_key"
+        android:title="@string/weather_title" >
+        <com.pearl.shell.preferences.SystemSettingListPreference
+            android:key="weather_lockscreen_unit"
+            android:dialogTitle="@string/weather_unit"
+            android:title="@string/weather_unit"
+            android:summary="%s"
+            android:entries="@array/weather_unit_entries"
+            android:entryValues="@array/weather_unit_values"
+            android:defaultValue="0" />
+    </PreferenceCategory>
 </PreferenceScreen>

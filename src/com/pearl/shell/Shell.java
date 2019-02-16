@@ -32,6 +32,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import android.widget.RelativeLayout;
+import android.app.PendingIntent;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.app.Activity;
 
 import com.android.settings.Utils;
 import com.android.internal.logging.nano.MetricsProto;
@@ -69,6 +74,9 @@ public class Shell extends Fragment implements View.OnClickListener {
 		FrameLayout card6 = (FrameLayout) view.findViewById(R.id.card6);
 		card6.setOnClickListener(this);
 		
+		RelativeLayout about = (RelativeLayout) view.findViewById(R.id.about);
+		about.setOnClickListener(this);
+
 		RelativeLayout about = (RelativeLayout) view.findViewById(R.id.about);
 		about.setOnClickListener(this);
 
@@ -115,6 +123,10 @@ public class Shell extends Fragment implements View.OnClickListener {
                     startActivity(launchIntent);
                 }
 
+                         case R.id.about:
+				PackageManager pm = getActivity().getPackageManager();
+				Intent intent = pm.getLaunchIntentForPackage("com.pearl.about");
+                                getActivity().startActivityFromFragment(this, intent, getTargetRequestCode());
 			default:
 				break;
 
