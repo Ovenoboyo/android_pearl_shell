@@ -35,6 +35,7 @@
                     android:layout_weight="1"
                     android:clickable="true"
                     android:focusable="true"
+                    android:foreground="@drawable/bg1"
                     android:background="@drawable/ripple">
 
                     <RelativeLayout
